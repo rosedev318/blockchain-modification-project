@@ -7,6 +7,7 @@ from decimal import Decimal
 from os import getenv
 from xml.etree import ElementTree
 
+
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from gino.dialects.asyncpg import JSONB
 from raven.contrib.sanic import Sentry
